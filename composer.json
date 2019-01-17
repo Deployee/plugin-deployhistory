@@ -10,6 +10,7 @@
     ],
     "require": {
         "php": ">=7.0",
+        "ect-pdo": "*",
         "deployee/plugins": "^1.0",
         "deployee/docblock": "^1.0",
         "symfony/event-dispatcher": "^3.4",
