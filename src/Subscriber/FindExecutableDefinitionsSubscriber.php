@@ -49,7 +49,7 @@ class FindExecutableDefinitionsSubscriber implements EventSubscriberInterface
         $collection = $event->getDefinitionFileCollection();
         $executedClassNames = $this->getExecutedDefinitionClassNames();
 
-        foreach($collection as $index => $class){
+        foreach($collection->getArrayCopy() as $index => $class){
             if($this->docBlock->hasTag($class, 'runalways')
                 || !in_array($class, $executedClassNames, false)){
                 continue;
