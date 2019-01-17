@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Deployee\\Plugins\\DeployEnv\\": "src/"
+            "Deployee\\Plugins\\DeployHistory\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Deployee\\Plugins\\DeployEnv\\": "tests/"
+            "Deployee\\Plugins\\DeployHistory\\": "tests/"
         }
     }
 }
